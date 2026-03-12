@@ -83,3 +83,173 @@ p a:hover{ color:#868e36; text-decoration:none;}
 #footer p{padding: 10px 0 0 0; font:10px/16px Tahoma, sans-serif; font-weight:normal; text-align:center; color:#000;}
 #footer p a{font:10px/16px Tahoma, sans-serif; font-weight:normal; color:#000; text-decoration:none; padding: 0 3px }
 #footer p a:hover{text-decoration:underline; color:#000}
+.page{
+width:1000px;
+margin:auto;
+text-align:center;
+}
+
+.title{
+font-size:32px;
+margin:40px 0;
+color:#8a2b5b;
+}
+
+.bouquet-container{
+display:flex;
+justify-content:center;
+gap:40px;
+}
+
+.bouquet-card{
+width:250px;
+padding:20px;
+background:#fff;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.bouquet-card:hover{
+transform:translateY(-10px);
+}
+
+.bouquet-card img{
+width:150px;
+margin-bottom:15px;
+}
+
+.bouquet-card h3{
+color:#b40064;
+}
+
+.bouquet-card p{
+font-size:14px;
+color:#555;
+}
+
+.bouquet-card button{
+background:#b40064;
+color:white;
+border:none;
+padding:10px 20px;
+border-radius:5px;
+cursor:pointer;
+}
+
+.bouquet-card button:hover{
+background:#ff4da6;
+}
+.about-page{
+width:1000px;
+margin:auto;
+padding:40px 0;
+}
+
+.about-title{
+text-align:center;
+font-size:32px;
+color:#8a2b5b;
+margin-bottom:30px;
+}
+
+.about-section{
+display:flex;
+gap:40px;
+align-items:center;
+}
+
+.about-image img{
+width:350px;
+border-radius:10px;
+}
+
+.about-text{
+font-size:16px;
+color:#444;
+line-height:1.6;
+}
+
+.service-title{
+text-align:center;
+margin-top:50px;
+color:#b40064;
+}
+
+.services{
+display:flex;
+gap:30px;
+margin-top:20px;
+}
+
+.service-card{
+flex:1;
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.service-card h3{
+color:#b40064;
+}
+.contact-page{
+width:1000px;
+margin:auto;
+padding:40px 0;
+}
+
+.contact-title{
+text-align:center;
+font-size:32px;
+color:#8a2b5b;
+margin-bottom:30px;
+}
+
+.contact-container{
+display:flex;
+gap:40px;
+}
+
+.contact-info{
+flex:1;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.contact-form{
+flex:1;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.contact-form input,
+.contact-form textarea{
+width:100%;
+padding:10px;
+margin-bottom:15px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.contact-form textarea{
+height:120px;
+}
+
+.contact-form button{
+background:#b40064;
+color:white;
+border:none;
+padding:10px 20px;
+border-radius:5px;
+cursor:pointer;
+}
+
+.contact-form button:hover{
+background:#ff4da6;
+}
